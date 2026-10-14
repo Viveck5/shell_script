@@ -3,13 +3,13 @@
 echo "Please enter the marks"
 read marks
 
-if[ $marks -lt 35 ]; then
+if [ $marks -lt 35 ]; then
     echo "FAIL"
-elif[ $marks -lt 50 ]; then
+elif [ $marks -lt 50 ]; then
     echo "Third class"
-elif[ $marks -lt 60 ]; then
+elif [ $marks -lt 60 ]; then
     echo "Second class"
-elif[ $marks -lt 75 ]; then
+elif [ $marks -lt 75 ]; then
     echo "First class"
 else
     echo "Distinction"
