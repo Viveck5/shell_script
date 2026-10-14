@@ -11,7 +11,7 @@ echo "Current working directory: $PWD"
 echo "Home directory: $HOME"
 echo "Process id: $$"
 echo "Waiting for 5 seconds: "
-sleep 5 &
+sleep 5
 echo "Process id of comman running in the background: $!"
 echo "prints line number: $LINENO"
 echo "Status of previous command: $?"
